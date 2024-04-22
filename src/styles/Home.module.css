@@ -11,7 +11,7 @@
 }
 
 .nav a {
-    color:#8257e5
+    color: #8257e5
 }
 
 .content {
@@ -22,17 +22,17 @@
     padding: 24px 20px;
 }
 
-.content p{
+.content p {
     margin: 20px 0;
 }
 
-.content h1{
+.content h1 {
     margin-bottom: 20px;
     font-size: 24px;
 }
 
-.content h2{
-  font-size: 16px;
+.content h2 {
+    font-size: 16px;
 }
 
 .footer {
@@ -61,4 +61,20 @@
     background: #fff;
     padding: 120px;
     border-radius: 5px;
+    color: #333;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    inset: 0;
+}
+
+.closeModalButton {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 16px;
+    background: #8257e5;
+    border-radius: 5px;
+    color: #fff;
 }
