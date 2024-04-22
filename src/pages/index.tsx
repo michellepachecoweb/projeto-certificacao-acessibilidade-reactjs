@@ -29,11 +29,11 @@ export default function Home() {
                 <h3>Acessibilidade o que seria?</h3>            
           </article>
       </main>
-      <footer className={styles.header}>
+      <footer className={styles.footer}>
         <Image src={LogoImg} width={286/2} alt="Blog da Rocketseat "/>
-        <div className={styles.nav}>
-          <a href="#" > Termos de uso</a>
-        </div>
+        <nav className={styles.nav} aria-label="Rodapé">
+          <a href="#"> Termos de uso</a>
+        </nav>
       </footer>
     </>
   );
