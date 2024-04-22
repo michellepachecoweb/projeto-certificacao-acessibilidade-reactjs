@@ -5,7 +5,6 @@ export async function axeAccessibilityReporter() {
         const ReactDOM = await require('react-dom')
 
         axe(React, ReactDOM, 1000)
-
     }
 }
 
